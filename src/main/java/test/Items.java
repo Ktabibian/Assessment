@@ -44,11 +44,10 @@ Total: $35.0
 
 public class Items {
 
-//    static double orderTotal(){
-//
-//    }
-
     public static void main(String[] args) {
+        //Q1
+        Orders.receipt(5.0, 20, "Rice", 10);
+        Orders.receipt(2.0, 10, "Beans", 30);
 
         //Q2 done
         char[] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
